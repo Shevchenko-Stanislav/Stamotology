@@ -1,0 +1,8 @@
+@function stretchSize($value, $base: 1920) {
+  @return math.div($value, $base) * 100vw;
+}
+
+
+@function sizeAuto($width) {
+  @return math.div($width, 1920) * 100rem;
+}
